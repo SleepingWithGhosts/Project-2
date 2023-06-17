@@ -1,0 +1,89 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    background: #da4343;
+    color: white;
+    padding: 50px 0px 50px 20px;
+    margin-top: 0px;
+    font-size: 60px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: #812525;
+    color: rgb(226, 224, 224);
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    margin-top: -40px;
+}
+
+.navbar a {
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+    display: block;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color:#310d0d;
+}
+
+.navbar li {
+    float: left;
+}
+
+.links{
+    background: blue;
+    margin-top: -20px;
+    color: white;
+    height: 100vh;
+    margin-right: 1350px;
+}
+
+.links ul {
+    list-style-type: none;
+    overflow: hidden;
+    font-weight: bold;
+    background-color: blue;
+    height: 100%; 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: stretch;
+    padding-left: 20px;
+     
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    display: flex; 
+    align-items: center; 
+    padding: 15px;
+}
+
+.links li {
+    background: rgb(2, 2, 168);
+    border: solid blue;
+}
+
+.links li:hover {
+    background: rgb(0, 0, 77);
+}
+
+#links-h1{
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+
+
